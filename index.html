@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Coding Quiz</title>
+</head>
+<body>
+    <header class="row justify-content-between">
+        <div id="view-score">View High Score</div>
+        <div id="timer"></div>
+    </header>
+
+    <main>
+        <div class="game-start-container">
+            <div class="game-intro">
+                <h1>Coding Quiz!</h1>
+                <p>You will have 60 seconds to answer coding related questions that you should have learned so far in the bootcamp.</p>
+            </div>
+            <button id="start-game-btn" class="start-btn">START</button>
+        </div>
+        <div id="game-container" class="hidden">
+            <div id="question" class="question">Question goes here!</div>
+            <div class="choice-btns">
+                <button class="btn">1. Answer</button>
+                <button class="btn">2. Answer</button>
+                <button class="btn">3. Answer</button>
+                <button class="btn">4. Answer</button>
+            </div>
+            <div class="answer-notif">Correct!</div>
+        </div>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
