@@ -36,7 +36,6 @@ main {
     padding: 10px;
     box-shadow: 0 0 10px 2px;
     margin-bottom: 600px;
-    /* display: none; */
 }
 
 .game-start-container h1 {
@@ -58,7 +57,7 @@ main {
     margin-top: 5px;
 }
 
-.hidden {
+.question-container {
     text-align: center;
     width: 400px;
     max-width: 80%;
@@ -66,7 +65,6 @@ main {
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
-    display: none;
 }
 
 .choice-btns {
@@ -86,6 +84,8 @@ main {
     padding-bottom: 5px;
     margin-top: 5px;
     margin-right: 290px;
+    text-align: left;
+    white-space: nowrap;
 }
 
 .btn:hover, .start-btn:hover {
@@ -94,6 +94,10 @@ main {
 
 .answer-notif {
     text-align: center;
+}
+
+.hide {
+    display: none;
 }
 
 
