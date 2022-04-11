@@ -23,9 +23,9 @@ var scoreStorage = JSON.parse(localStorage.getItem("scoreStorage")) || [];
 // Question and answer array.
 var questions = [
     {
-        title: "Where do you link the css file in the html file?",
-        choices:["<header>", "<body>", "<head>", "<main>"],
-        answer: "<head>"
+        title: "What does the operator (===) compare?",
+        choices: ["Value only", "Value and type", "Type only", "Numbers only"],
+        answer: "Value and type"
     },
     {
         title: "How are variables assigned?",
@@ -38,9 +38,9 @@ var questions = [
         answer: "False and True"
     },
     {   
-        title: "What is the correct order to push data to a remote repo?",
-        choices: ["git push, git add, git commit", "git commit, git push, git add", "git add, git commit, git push", "git checkout, git add, git commit"],
-        answer: "False and True"
+        title: "In a for() loop how do you advance to the next index?",
+        choices: ["i++", "i = i + 1", "i+=1", "All of the above"],
+        answer: "All of the above"
     }
 
 ];

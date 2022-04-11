@@ -113,6 +113,7 @@ main {
     border-radius: 5px;
     padding: 30px;
     box-shadow: 0 0 10px 2px;
+    margin: 0 auto;
 }
 
 .form-container h1 {
