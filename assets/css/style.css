@@ -100,5 +100,37 @@ main {
     display: none;
 }
 
+.form-container {
+    text-align: center;
+    width: 400px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.form-container h1 {
+    color: red;
+}
+
+.form-container h1, h2 {
+    padding: 10px;
+}
+
+.form-container button {
+    background-color: rgb(83, 43, 226);
+    color: white;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 5px 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    text-align: left;
+    white-space: nowrap;
+}
+
 
 
