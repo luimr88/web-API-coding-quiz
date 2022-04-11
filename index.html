@@ -8,12 +8,15 @@
     <title>Coding Quiz</title>
 </head>
 <body>
-    <header class="row justify-content-between">
-        <div id="view-score">View High Score</div>
+    <!-- highscore button and timer are placed as the header -->
+    <header class="highscore-link">
+        <div id="view-score">
+            <button id="score-btn" class="score-btn">View High Score</button>
+        </div>
         <div id="timer"></div>
     </header>
-
     <main>
+        <!-- game intro container -->
         <div id="game-start" class="game-start-container">
             <div class="game-intro">
                 <h1>Coding Quiz!</h1>
@@ -21,25 +24,31 @@
             </div>
             <button id="start-game-btn" class="start-btn">START</button>
         </div>
+        <!-- question container -->
         <div id="game-container" class="question-container">
             <div id="question" class="question">Question goes here!</div>
-            <div id="choice-area" class="choice-btns">
-                <!-- <button id="btn" class="btn">1. Answer</button>
-                <button id="btn" class="btn">2. Answer</button>
-                <button id="btn" class="btn">3. Answer</button>
-                <button id="btn" class="btn">4. Answer</button> -->
+            <div id="choice-area" class="choice-btns"></div>
+            <div class="answer-notif">
+                <h4 id="correct-answer"></h4>
             </div>
-            <div class="answer-notif">Correct!</div>
         </div>
+        <!-- form where players will see score and input initials -->
         <form id="initials-input">
             <div id="form-area" class="form-container">
                 <h1>GAME OVER!</h1>
                 <h2 id="score"></h2>
                 <h2>Enter initials!</h2>
                 <input type="text" name="name-input" class="text-input" placeholder="Enter initials"/>
-                <button class="btn" id="save-name" type="submit">Submit</button>
+                <button class="submit-button" id="save-name" type="submit">Submit</button>
             </div>
         </form>
+        <!-- highscores container -->
+        <div id="scores-container" class="scores-container">
+            <h1>High Scores</h1>
+            <ul id="score-list"></ul>
+            <button class="highscore-btns" onclick="window.location.href='/';">Home</button>
+            <button class="highscore-btns" id="clear-score">Clear Scores</button>
+        </div>
     </main>
     <script src="./assets/js/script.js"></script>
 </body>
